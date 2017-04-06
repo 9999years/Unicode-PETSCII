@@ -1,40 +1,53 @@
-� D  | $64 | -      U+0044
-� E  | $65 | -      U+0045
-� F  | $66 | -      U+0046
-� G  | $67 | -      U+0047
-� H  | $68 | -      U+0048
-� L  | $6c | -      U+004C
-� O  | $6f | -      U+004F
-� P  | $70 | -      U+0050
-� R  | $72 | -      U+0052
-� T  | $74 | -      U+0054
-� Y  | $79 | -      U+0059
-�    | $7c | -
-◥ �  | $7f | U+25E5 -
-�    | $a8 | -
-◤ �  | $a9 | U+25E4 -
-�    | $aa | -
-�    | $b6 | -
-�    | $b7 | -
-�    | $b8 | -
-� ✓  | $ba | -      U+2713
-� D  | $c4 | -      U+0044
-� E  | $c5 | -      U+0045
-� F  | $c6 | -      U+0046
-� G  | $c7 | -      U+0047
-� H  | $c8 | -      U+0048
-� L  | $cc | -      U+004C
-� O  | $cf | -      U+004F
-� P  | $d0 | -      U+0050
-� R  | $d2 | -      U+0052
-� T  | $d4 | -      U+0054
-� Y  | $d9 | -      U+0059
-�    | $dc | -
-◥ �  | $df | U+25E5 -
-�    | $e8 | -
-◤ �  | $e9 | U+25E4 -
-�    | $ea | -
-�    | $f6 | -
-�    | $f7 | -
-�    | $f8 | -
-� ✓  | $fa | -      U+2713
+Horizontal pixels are measured from the bottom, with the lower-most
+pixel being the 1st pixel, and the top-most pixel being the 8th. Vertical
+pixels are measured from the left. Line thickness precedes the character
+description.
+
+“Partial” means that the bounds of the glyph do not go to the edges of its
+bounding box (e.g. it uses none of the outer-most 30 pixels).
+
+REF: https://en.m.wikipedia.org/wiki/File:C64_Petscii_Charts.png
+
+CHAR | CP  | UCP           | DESCRIPTION
+� D  | $64 | -      U+0044 | 2px horizontal bar (px 5-6)
+� E  | $65 | -      U+0045 | 2px horizontal bar (px 6-7)
+� F  | $66 | -      U+0046 | 2px horizontal bar (px 3-4)
+� G  | $67 | -      U+0047 | 2px vertical bar (px 3-4)
+� H  | $68 | -      U+0048 | 2px vertical bar (px 5-6)
+� L  | $6c | -      U+004C | 2px left and bottom strokes
+� O  | $6f | -      U+004F | 2px left and top strokes
+� P  | $70 | -      U+0050 | 2px top and right strokes
+� R  | $72 | -      U+0052 | 2px horizontal bar (px 2-3)
+� T  | $74 | -      U+0054 | 2px vertical bar (px 2-3)
+� Y  | $79 | -      U+0059 | 2px vertical bar (px 6-7)
+�    | $7c | -             | 50% shading left half
+◥ �  | $7f | U+25E5 -      | Upper left to lower right fill (NOT U+25A7)
+�    | $a8 | -             | 50% shading bottom half
+◤ �  | $a9 | U+25E4 -      | Upper right to lower left fill (NOT U+25A8)
+�    | $aa | -             | 2px vertical bar (px 7-8)
+�    | $b6 | -             | 3px vertical bar (px 6-8)
+�    | $b7 | -             | 2px horizontal bar (px 7-8)
+�    | $b8 | -             | 3px vertical bar (px 6-8)
+� ✓  | $ba | -      U+2713 | 2px right and bottom strokes
+
+DUPLICATES:
+� D  | $c4 | -      U+0044 | = $64
+� E  | $c5 | -      U+0045 | = $65
+� F  | $c6 | -      U+0046 | = $66
+� G  | $c7 | -      U+0047 | = $67
+� H  | $c8 | -      U+0048 | = $68
+� L  | $cc | -      U+004C | = $6c
+� O  | $cf | -      U+004F | = $6f
+� P  | $d0 | -      U+0050 | = $70
+� R  | $d2 | -      U+0052 | = $72
+� T  | $d4 | -      U+0054 | = $74
+� Y  | $d9 | -      U+0059 | = $79
+�    | $dc | -             | = $7c
+◥ �  | $df | U+25E5 -      | = $7f
+�    | $e8 | -             | = $a8
+◤ �  | $e9 | U+25E4 -      | = $a9
+�    | $ea | -             | = $aa
+�    | $f6 | -             | = $b6
+�    | $f7 | -             | = $b7
+�    | $f8 | -             | = $b8
+� ✓  | $fa | -      U+2713 | = $ba
