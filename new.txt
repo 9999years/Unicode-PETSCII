@@ -8,46 +8,49 @@ bounding box (e.g. it uses none of the outer-most 30 pixels).
 
 REF: https://en.m.wikipedia.org/wiki/File:C64_Petscii_Charts.png
 
-CHAR | CP  | UCP           | DESCRIPTION
-� D  | $64 | -      U+0044 | 2px horizontal bar (px 5-6)
-� E  | $65 | -      U+0045 | 2px horizontal bar (px 6-7)
-� F  | $66 | -      U+0046 | 2px horizontal bar (px 3-4)
-� G  | $67 | -      U+0047 | 2px vertical bar (px 3-4)
-� H  | $68 | -      U+0048 | 2px vertical bar (px 5-6)
-� L  | $6c | -      U+004C | 2px left and bottom strokes
-� O  | $6f | -      U+004F | 2px left and top strokes
-� P  | $70 | -      U+0050 | 2px top and right strokes
-� R  | $72 | -      U+0052 | 2px horizontal bar (px 2-3)
-� T  | $74 | -      U+0054 | 2px vertical bar (px 2-3)
-� Y  | $79 | -      U+0059 | 2px vertical bar (px 6-7)
-�    | $7c | -             | 50% shading left half
-◥ �  | $7f | U+25E5 -      | Upper left to lower right fill (NOT U+25A7)
-�    | $a8 | -             | 50% shading bottom half
-◤ �  | $a9 | U+25E4 -      | Upper right to lower left fill (NOT U+25A8)
-�    | $aa | -             | 2px vertical bar (px 7-8)
-�    | $b6 | -             | 3px vertical bar (px 6-8)
-�    | $b7 | -             | 2px horizontal bar (px 7-8)
-�    | $b8 | -             | 3px vertical bar (px 6-8)
-� ✓  | $ba | -      U+2713 | 2px right and bottom strokes
+UNSHIFTED:
+$64 | 2px horizontal bar (px 5-6)
+$65 | 2px horizontal bar (px 6-7)
+$66 | 2px horizontal bar (px 3-4)
+$67 | 2px vertical bar (px 3-4)
+$68 | 2px vertical bar (px 5-6)
+$6c | Left and lower strokes
+$6f | Left and upper strokes
+$70 | Upper and right strokes
+$72 | 2px horizontal bar (px 2-3)
+$74 | 2px vertical bar (px 2-3)
+$79 | 2px vertical bar (px 6-7)
+$ba | Right and lower strokes
+
+SHIFTED:
+$7c | 50% shading left half
+$7f | Upper left to lower right fill (NOT U+25A7)
+$a7 | Right one quarter block
+$a8 | 50% shading bottom half
+$a9 | Upper right to lower left fill (NOT U+25A8)
+$b6 | Right three eights block
+$b7 | Upper one quarter block
+$b8 | Upper three eights block
 
 DUPLICATES:
-� D  | $c4 | -      U+0044 | = $64
-� E  | $c5 | -      U+0045 | = $65
-� F  | $c6 | -      U+0046 | = $66
-� G  | $c7 | -      U+0047 | = $67
-� H  | $c8 | -      U+0048 | = $68
-� L  | $cc | -      U+004C | = $6c
-� O  | $cf | -      U+004F | = $6f
-� P  | $d0 | -      U+0050 | = $70
-� R  | $d2 | -      U+0052 | = $72
-� T  | $d4 | -      U+0054 | = $74
-� Y  | $d9 | -      U+0059 | = $79
-�    | $dc | -             | = $7c
-◥ �  | $df | U+25E5 -      | = $7f
-�    | $e8 | -             | = $a8
-◤ �  | $e9 | U+25E4 -      | = $a9
-�    | $ea | -             | = $aa
-�    | $f6 | -             | = $b6
-�    | $f7 | -             | = $b7
-�    | $f8 | -             | = $b8
-� ✓  | $fa | -      U+2713 | = $ba
+$aa | = $a7
+$c4 | = $64
+$c5 | = $65
+$c6 | = $66
+$c7 | = $67
+$c8 | = $68
+$cc | = $6c
+$cf | = $6f
+$d0 | = $70
+$d2 | = $72
+$d4 | = $74
+$d9 | = $79
+$dc | = $7c
+$df | = $7f
+$e8 | = $a8
+$e9 | = $a9
+$ea | = $aa
+$f6 | = $b6
+$f7 | = $b7
+$f8 | = $b8
+$fa | = $ba
